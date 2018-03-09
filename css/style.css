@@ -1,0 +1,144 @@
+/*GLOBAL*/
+
+        * {
+            /* #2 #font #faces Taking Roboto by using a referenced link, and sans serif for fall back*/
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        
+        }
+
+        body {
+            /* #2 #colorful #background */
+            background-color: #F5F5F5;
+        }
+
+        button {
+            /* #2 #colourful #plusfive */
+            background-color: #CDDC39;
+            color: black;
+            /* #2 #font capital #letters */
+            text-transform: uppercase;
+          
+        }
+        .location{
+            text-transform: uppercase;
+        }
+
+/*APP BAR*/
+        .app-bar {
+            /* #2 #colourful #app-bar */
+            background-color: #3F51B5;
+            color: white;
+        }
+/*CHANNELS LIST*/
+        /*General channel layout*/
+        li {
+            /* #2 #colorful #channelandchat */
+            background-color: white; 
+            padding: 16px;
+            font-size: 16px;
+            height: 48px;
+            box-sizing: border-box;
+            border-bottom: solid;
+            border-bottom-width: thin;
+            border-bottom-color: #F5F5F5;
+            
+        }
+        /*Selecting one button, this will be provisional, when choosing another button this property will have to rise on that button*/
+        li.selected{
+            color: #3F51B5;
+            border-left: solid;
+            border-left-color: #3F51B5;
+        
+        }
+        /*In order to align the image to the middle of the line, not to the baseline*/
+        li img{
+            vertical-align: middle;
+        }
+        /*TAP BAR: shows the lay out for each of the buttons in the tap bar */
+        .tap-bar button {
+            background-color: white;
+            border: none;
+            font-size: 13px;
+            text-transform: uppercase;
+            text-align: center;
+            height: 72px;
+            width: 33%;
+            padding: 16px;
+            }
+        /*In order to display the image on top of the word and centered with 4px padding*/
+        .tap-bar img{
+            display: block;
+            margin: auto;
+            padding: 4px;
+        }
+        /*Solid bottom line to emphasize on the selected button - provisional*/
+        .tap-bar button.selected{
+            border-bottom: solid;
+            border-bottom-color:#3F51B5;
+            border-bottom-width: 4px;
+        }
+
+        /*MESSAGES*/
+        /*Messages from others have a 2.5% left margin*/
+        .message{
+            width: 80%;
+            margin-bottom: 8px;
+            margin-left: 2.5%;
+            
+        }
+        .message h3 a{
+            /*#2 #font #metadata is now medium */
+            color: #000000;
+            font-size: medium;
+        }
+        .message p{
+            /* #2 #colorful #channelandchat */
+            background-color: #ffffff;
+            padding: 16px;
+            
+        }
+        .message button{
+            /* #2 #colourful #plusfive */
+            background-color: ##CDDC39;
+            color: black;
+            /* #2 #font capital #letters */
+            text-transform: uppercase;
+        }
+        .message em{
+            /* #2 #font #remaining overrides the default italic appearance of em elements*/
+            font-size: larger;
+            font-style: normal;
+        }
+
+        /*new class for own message with a 17.5% margin-left difference. The rest is the same as class message above*/
+        .own{
+            width: 80%;
+            margin-bottom: 8px;
+            margin-left: 17.5%;
+            
+        }
+        .own h3 a{
+            /*#2 #font #metadata is now medium */
+            color: #000000;
+            font-size: medium;
+        }
+        .own p{
+            /* #2 #colorful #channelandchat */
+            background-color: #ffffff;
+            padding: 16px;
+        }
+        .own button{
+            /* #2 #colourful #plusfive */
+            background-color: ##CDDC39;
+            color: black;
+            /* #2 #font capital #letters */
+            text-transform: uppercase;
+        }
+        .own em{
+            /* #2 #font #remaining overrides the default italic appearance of em elements*/
+            font-size: larger;
+            font-style: normal;
+        }
+
