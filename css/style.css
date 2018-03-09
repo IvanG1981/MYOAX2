@@ -68,6 +68,9 @@
             padding: 16px;
             }
         /*In order to display the image on top of the word and centered with 4px padding*/
+        .tap-bar{
+            background-color: white;
+        }
         .tap-bar img{
             display: block;
             margin: auto;
